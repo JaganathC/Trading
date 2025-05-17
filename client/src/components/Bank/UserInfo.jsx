@@ -18,7 +18,7 @@ const UserInfo = ({ userData, transactions }) => {
 
   return (
     <div className="bg-zinc-800 font-mono p-6 rounded-lg border-2 border-zinc-700 shadow-md flex flex-col items-center justify-center h-80 w-[400px]">
-      <h2 className="text-xl text-start font-bold text-amber-600 mb-4">👋🏻 Hello Nishant Tiwari</h2>
+      <h2 className="text-xl text-start font-bold text-amber-600 mb-4">👋🏻 Hello Chowdam Jaganath</h2>
       <p className="text-lg font-medium text-white">Total Saved Amount: $76</p>
       <p className="text-lg text-white">UPI ID: {upiId}</p>
       <p className="text-lg text-gray-400">Account Created: {new Date(createdAt).toLocaleDateString()}</p>
